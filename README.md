@@ -29,7 +29,7 @@ The project uses the following Python libraries:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/polynomial-regression-position-salaries.git
+   git clone https://github.com/EbadShabbir/polynomial-regression-position-salaries.git
 pip install -r requirements.txt
 pip install pandas scikit-learn matplotlib
 python main.py
