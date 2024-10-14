@@ -25,15 +25,13 @@ The project uses the following Python libraries:
 - `pandas`
 - `scikit-learn`
 - `matplotlib`
-- pip install pandas scikit-learn matplotlib
-- pip install -r requirements.txt
+
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/EbadShabbir/polynomial-regression-position-salaries.git
 2. Installing Libraries:
-   '''bash
    - pip install pandas scikit-learn matplotlib
    - pip install -r requirements.txt
 # LINEAR REGRESSION RESULT
