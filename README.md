@@ -32,7 +32,10 @@ The project uses the following Python libraries:
 1. Clone the repository:
    ```bash
    git clone https://github.com/EbadShabbir/polynomial-regression-position-salaries.git
-
+2. Installing Libraries:
+   '''bash
+   - pip install pandas scikit-learn matplotlib
+   - pip install -r requirements.txt
 # LINEAR REGRESSION RESULT
 lin_pred = lin_regs.predict([[6.5]])  
 print(f"Linear Regression Prediction for 6.5: {lin_pred}")
