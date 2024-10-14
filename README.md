@@ -25,8 +25,8 @@ The project uses the following Python libraries:
 - `pandas`
 - `scikit-learn`
 - `matplotlib`
-pip install pandas scikit-learn matplotlib
-pip install -r requirements.txt
+- pip install pandas scikit-learn matplotlib
+- pip install -r requirements.txt
 
 ## Installation
 1. Clone the repository:
@@ -40,15 +40,15 @@ print(f"Linear Regression Prediction for 6.5: {lin_pred}")
 # POLYNOMIAL REGRESSION RESULT (degree 2)
 poly_pred_2 = lin_reg_2.predict(poly_regs_2.fit_transform([[6.5]]))  
 print(f"Polynomial Regression (Degree 2) Prediction for 6.5: {poly_pred_2}")
-Polynomial Regression (Degree 2) Prediction for 6.5: [189498.10606061]
+
 # POLYNOMIAL REGRESSION RESULT (degree 3)
 poly_pred_3 = lin_reg_3.predict(poly_regs_3.fit_transform([[6.5]]))  
 print(f"Polynomial Regression (Degree 3) Prediction for 6.5: {poly_pred_3}")
-Polynomial Regression (Degree 3) Prediction for 6.5: [133259.46969697]
+
 # POLYNOMIAL REGRESSION RESULT (degree 4)
 poly_pred_4 = lin_reg_4.predict(poly_regs_4.fit_transform([[6.5]]))  
 print(f"Polynomial Regression (Degree 4) Prediction for 6.5: {poly_pred_4}")
-Polynomial Regression (Degree 4) Prediction for 6.5: [158862.45265155]
+
 ### Notes:
 1. Make sure you include images of the regression plots (`linear_regression.png`, `polynomial_regression_2.png`, etc.) in the `images` directory.
 2. Customize the actual predicted salary values in the `Model Results` section after running the script.
